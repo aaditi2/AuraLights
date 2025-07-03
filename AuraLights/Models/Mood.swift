@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-enum Mood: String, CaseIterable, Identifiable {
+enum Mood: String, CaseIterable, Identifiable, Codable {
     case calm, happy, focused, romantic
 
     var id: String { self.rawValue }
